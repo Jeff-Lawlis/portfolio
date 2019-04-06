@@ -1,0 +1,29 @@
+.portfolio-items{
+    float: left;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    padding: 0;
+}
+.portfolio-list{
+    clear: both;
+    content: '';
+    display: table;
+    width: 60%;
+    padding: 0;
+}
+.portfolio-image{
+    display: block;
+}
+.item-tag{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 10px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 0;
+}
